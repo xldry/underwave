@@ -1,0 +1,32 @@
+{
+  "name": "underwave",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontity project",
+  "keywords": [
+    "frontity"
+  ],
+  "engines": {
+    "node": "16.x",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "dev": "frontity dev",
+    "build": "frontity build",
+    "serve": "frontity serve"
+  },
+  "prettier": {},
+  "dependencies": {
+    "@frontity/core": "^1.16.0",
+    "@frontity/html2react": "^1.7.0",
+    "@frontity/mars-theme": "./packages/mars-theme",
+    "@frontity/tiny-router": "^1.4.4",
+    "@frontity/wp-source": "^1.11.7",
+    "dayjs": "^1.11.7",
+    "frontity": "^1.17.2",
+    "polished": "^4.2.2",
+    "react-router-dom": "^6.10.0",
+    "styled-components": "^5.3.9",
+    "tpbdtheme": "file:packages/tpbdtheme"
+  }
+}
