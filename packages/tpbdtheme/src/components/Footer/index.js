@@ -12,14 +12,19 @@ const Footer = () => {
     },
     {
       id: 2,
+      label: 'Github',
+      url: 'https://github.com/xldry/'
+    },
+    {
+      id: 3,
       label: 'last.fm',
       url: 'https://www.last.fm/user/jumiknight'
     },
     {
-      id: 3,
+      id: 4,
       label: 'rateyourmusic',
       url: 'https://www.rateyourmusic.com/~jumi'
-    }
+    },
   ];
   return (
     <>
