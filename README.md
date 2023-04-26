@@ -1,12 +1,11 @@
 # underwave
 
-This project was bootstrapped with [Frontity](https://frontity.org/).
+Este projeto foi inicializado com [Frontity](https://frontity.org/).
 
-a personal blog using Frontity, the React framework for WordPress. deployed using [Vercel](https://vercel.com). please refer to the original documentation on how to run a development server
+Um blog pessoal feito com Frontity, um framework para o WordPress baseado em React. Deploy através [Vercel](https://vercel.com).
 
-todo:
-- responsive layout
-- add an about page
-- add a contact page
-- more posts
-- category page
+To do:
+- Layout responsivo
+- Página de sobre
+- Página de contato
+- Página de categoria

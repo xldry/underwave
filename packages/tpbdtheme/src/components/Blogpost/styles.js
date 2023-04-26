@@ -15,6 +15,10 @@ export const TitleContainer = styled.div`
     text-align: center;
     line-height: 100%;
     margin-bottom: 15px;
+    @media (max-width: 768px) {
+      font-size: ${rem(36)};
+      padding: 0 10px;
+    }
   }
 
   h3 {
@@ -23,6 +27,10 @@ export const TitleContainer = styled.div`
     font-weight: 400;
     color: #555;
     margin-bottom: 30px;
+    text-align: center;
+    @media (max-width: 768px) {
+      padding: 0 20px;
+    }
   }
 `
 
@@ -86,11 +94,19 @@ export const PostContent = styled.div`
       line-height: 28px;
       margin-bottom: 20px;
       color: #1a1a1a;
+      @media (max-width: 768px) {
+        padding: 0 20px;
+      }
 
       a {
         color: black;
+        text-decoration: none;
+        border-bottom: 1px solid #ff3530;
         &:visited {
           color: black;
+        }
+        &:hover {
+          color: #ff3530;
         }
       }
     }

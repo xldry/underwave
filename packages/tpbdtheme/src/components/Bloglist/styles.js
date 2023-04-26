@@ -27,6 +27,10 @@ export const LatestPost = styled.div`
     text-align: center;
     line-height: 100%;
     margin: 20px 0;
+    @media (max-width: 768px) {
+      font-size: ${rem(36)};
+      padding: 0 10px;
+    }
   }
 
   .latest-post-excerpt {
@@ -35,6 +39,10 @@ export const LatestPost = styled.div`
     font-weight: 400;
     color: #555;
     margin-bottom: 30px;
+    text-align: center;
+    @media (max-width: 768px) {
+      padding: 0 20px;
+    }
   }
 
   .separator {

@@ -25,6 +25,9 @@ export const FooterContainer = styled.div`
 
     p {
       width: 40%;
+      @media (max-width: 768px) {
+        width: 80%;
+      }
       text-align: center;
       font-family: 'Noto Serif', sans-serif;
       font-size: ${rem(16)};

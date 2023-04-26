@@ -31,7 +31,7 @@ const Footer = () => {
       <S.FooterContainer>
         <div>
           <span>UnderWave</span>
-          <p>UNDERWAVE é um blog pessoal feito por Aldry Vinícius. Aqui eu falo principalmente dos meus hobbies que envolvem música, games e outras coisas. Você pode me achar nas redes sociais abaixo</p>
+          <p>UNDERWAVE é meu blog pessaol. Aqui eu falo principalmente dos meus hobbies que envolvem música, games e outras coisas. Você pode me achar nas redes sociais abaixo</p>
           <ul>
           {links.map(link => (
             <li key={link.id}>
